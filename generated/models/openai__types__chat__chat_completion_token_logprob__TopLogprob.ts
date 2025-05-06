@@ -1,0 +1,5 @@
+/* generated using openapi-typescript-codegen -- do not edit */
+/* istanbul ignore file */
+/* tslint:disable */
+/* eslint-disable */
+export type openai__types__chat__chat_completion_token_logprob__TopLogprob = Record<string, any>;

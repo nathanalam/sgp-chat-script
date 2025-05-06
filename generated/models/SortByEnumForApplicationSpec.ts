@@ -1,0 +1,36 @@
+/* generated using openapi-typescript-codegen -- do not edit */
+/* istanbul ignore file */
+/* tslint:disable */
+/* eslint-disable */
+export enum SortByEnumForApplicationSpec {
+    NAME_ASC = 'name:asc',
+    NAME_DESC = 'name:desc',
+    DESCRIPTION_ASC = 'description:asc',
+    DESCRIPTION_DESC = 'description:desc',
+    THEME_ID_ASC = 'theme_id:asc',
+    THEME_ID_DESC = 'theme_id:desc',
+    THEME_ASC = 'theme:asc',
+    THEME_DESC = 'theme:desc',
+    RUN_ONLINE_EVALUATION_ASC = 'run_online_evaluation:asc',
+    RUN_ONLINE_EVALUATION_DESC = 'run_online_evaluation:desc',
+    VARIANTS_ASC = 'variants:asc',
+    VARIANTS_DESC = 'variants:desc',
+    PARENT_APPLICATION_SPEC_ID_ASC = 'parent_application_spec_id:asc',
+    PARENT_APPLICATION_SPEC_ID_DESC = 'parent_application_spec_id:desc',
+    ID_ASC = 'id:asc',
+    ID_DESC = 'id:desc',
+    CREATED_AT_ASC = 'created_at:asc',
+    CREATED_AT_DESC = 'created_at:desc',
+    ACCOUNT_ID_ASC = 'account_id:asc',
+    ACCOUNT_ID_DESC = 'account_id:desc',
+    CREATED_BY_USER_ID_ASC = 'created_by_user_id:asc',
+    CREATED_BY_USER_ID_DESC = 'created_by_user_id:desc',
+    ARCHIVED_AT_ASC = 'archived_at:asc',
+    ARCHIVED_AT_DESC = 'archived_at:desc',
+    CREATED_BY_USER_ASC = 'created_by_user:asc',
+    CREATED_BY_USER_DESC = 'created_by_user:desc',
+    EVALUATIONS_ASC = 'evaluations:asc',
+    EVALUATIONS_DESC = 'evaluations:desc',
+    EVALUATION_COUNT_ASC = 'evaluation_count:asc',
+    EVALUATION_COUNT_DESC = 'evaluation_count:desc',
+}
