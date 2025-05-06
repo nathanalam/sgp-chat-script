@@ -1,8 +1,12 @@
+Install Deno (alternative to Node, if you want):
+
+https://docs.deno.com/runtime/getting_started/installation/
+
 Generate client:
 
 ```
 curl -X GET "https://api.egp.scale.com/openapi.json" | jq > schema.json
-npx -y openapi-typescript-codegen --input schema.json --output generated
+deno run npm:openapi-typescript-codegen --input schema.json --output generated
 ```
 
 Use the script:
